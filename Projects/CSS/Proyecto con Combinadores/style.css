@@ -1,0 +1,20 @@
+/* Hermano adyacente o cercano
+h2 + p{             /* Todas las etiquetas p cercanas a h2 pasan a ser rojas
+    color: red;
+} */
+
+/* Hermano general
+h2 ~ p{             /* Todas las etiquetas p que tengan como hermano general a h2 pasan a ser azules, se pintan todos ya que tienen el mismo padre
+    color: blue;
+} */
+
+/* Hijo
+div > p{            /* Todas las etiquetas p que sean hijo directo de div, se van a pintar de azul claro 
+    color: lightblue;
+} */
+
+/* Descendiente 
+div p{
+    color: fuchsia;     /* Todas las etiquetas p que estén en un contenedor div, pasan a ser fucsia
+}                         /* Básicamente se pintan todas las p que estén dentro de una etiqueta div, no importa que no sean hijos directos  
+*/

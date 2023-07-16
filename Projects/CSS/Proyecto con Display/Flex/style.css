@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+}
+.container{
+    border: 0.3rem solid black;
+    /* height: 50vh; */
+    display: flex;                   /* Con display flex, hago que los hijos coexistan entre ellos, osea que si tienen espacio, los pone juntos en la misma linea */
+    /* align-items: flex-end;           /* Alineo los items arriba a la izq, si uso stretch y quito el height definido, hago que crezcan */
+    flex-direction: row;             /* Con flex-direction, puedo elegir la dirección del flex, modificando la columna o fila */
+    flex-wrap: wrap;                 /* Cuando ya no hay espacio en la pantalla, sepasan a la fila de abajo y el contenedor se agranda */
+    justify-content: center;         /* Justifico el contenido en el centro o en donde quiera, flex-end, flex-start, space around */
+}                                    /* justify-content: space around, crea un espacio entre cada contenido, si uso space-evenly, hace los espacios simétricos */
+.box{
+    /*width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+.box1{
+    background-color: blue;
+    /*order: 1;                       /*Al usar order, los ordeno como yo quiera, pero los que no tengan order, se ponen primero */
+    /*flex-grow: 1; */                     /*Hago que este item rellene el espacio que queda en blanco */
+}
+.box2{
+    background-color: blueviolet;
+    /*order: 3; */
+    /*flex-grow: 1;                     /*Hago que junto con box1, rellenen el espacio en blanco que haya si es que hay */
+}
+.box3{
+    background-color: burlywood;
+}
+.box4{
+    background-color: cadetblue;   
+}
+.box5{
+    background-color: coral;
+    /*order: 4; */
+}
+.box6{
+    background-color: salmon;
+    /*order: 2; */
+}

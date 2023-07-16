@@ -1,0 +1,25 @@
+.main-nav{
+margin-top: 10px;
+list-style: none;
+padding-left: 0;
+background-color: #13a4a4;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+.main-nav__item a{              /* A todas las etiquetas a, se le aplica este estilo */
+    color: white;             /* Las palabras pasan a ser blancas */ 
+    padding: 5px;
+    border-radius: 2px;         /* manipulo las formas de las cajas, las hago mas ovaladas */
+    text-decoration: none;      /* Le saco el subrayado */
+}
+.main-nav__item a:hover{        /* Hover es cuando el mouse esté por encima de la palabra, cambia de color */
+    color: blue;
+}
+.main-nav__item a:active{       /* active quiere decir que cuando se le da clic pasa a ser rojo */
+    color:red;
+}
+.main-nav__item a::after{       /* Después del elemento, se agrega el siguiente contenido */ 
+    content: " | ";
+}

@@ -1,0 +1,38 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    color: black;
+    font-family: serif;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 18px;
+    font-family: monospace;     /* No se carga ya que el id #page-title está antes que esta clase */
+}
+.nav{
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0%;
+    color: powderblue;
+}
+#main-nav li{
+    display: inline-block;
+
+}
+.nav a{
+    color: white;
+    background-color: #13a4a4;
+    padding: 5px;
+    width: 2px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+body{
+    background-color: antiquewhite;
+}
+.nav .blog{     /* Clase dentro de otra clase */
+    background-color: red;
+}

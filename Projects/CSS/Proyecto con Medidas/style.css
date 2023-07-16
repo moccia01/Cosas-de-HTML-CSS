@@ -1,0 +1,15 @@
+/* main{
+    background-color: red;
+    width: 100%;
+    height: 500px;
+}
+p{
+    font-size: 16px;
+} */
+
+.text-container{        /* Uso la medida em para hacer que sea 1.5 más grande que la original */
+    font-size: 1.5em;
+}
+.text-container div{    /* Al usar 1.5 em una vez más, tomo el 1.5 del text-container */
+    font-size: 1.5em;
+}

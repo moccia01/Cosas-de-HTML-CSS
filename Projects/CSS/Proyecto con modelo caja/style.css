@@ -1,0 +1,14 @@
+*{          /*Al agregar esto, reiniciamos el margen, el padding y el tamaño de la caja */
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+main{           /* Con estas modificaciones toco la etiqueta main */
+    width: 100%;                    /* hago que el ancho sea el 100% */
+    height: 500px;                  /* hago que la altura sea de 500px */
+    border: 10px solid grey;      /* hago que tenga bordes grises de 10px */
+    padding: 20px 35px;             /* hago que el padding sea de 20 px vertical y 35px horizontal */
+}

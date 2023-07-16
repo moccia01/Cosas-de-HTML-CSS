@@ -1,0 +1,8 @@
+html{
+    font-size: 75%;             /* Hago que el tamaño de la letra sea el 75% de la original que pone el navegador */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   /* Cambio el tipo de fuente */
+}
+
+h1{
+    font-size: inherit;         /* Hago que la etiqueta h1 herede las características de su etiqueta padre */
+}                               /* En este caso, la única modificada fue html, entonces hereda esas caracteristicas */

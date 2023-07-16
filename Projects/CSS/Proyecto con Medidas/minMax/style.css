@@ -1,0 +1,21 @@
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    padding: 0%;
+}
+html{
+    font-size: 62.5%;
+}
+main{
+    width: 100vw;       /* Pongo que ambos sean el 100 para que sin importar la pantalla, se vea pantalla completa */
+    height: 100vh;
+    background-color: plum;
+}
+section{
+    width: 80%;
+    min-width: 320px;       /* Establezco el mínimo que se puede enzanchar */
+    max-width: 500px;       /* Delimito el máximo que se puede enzanchar */
+    height: 500px;          /* Establezco la altura que va a tener, ni más ni menos */
+    margin: 0 auto;        /* El 0 auto sirve para centrar, hace que arriba y abajo no haya margen y, de der a izq haya un margen automático */    
+    background-color: red;
+}
