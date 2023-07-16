@@ -1,0 +1,87 @@
+<!DOCTYPE html> <!--Entiende todo como html simple -->
+<html lang = "es">  <!--ES EL MAIN, lang indica que la pagina se puede traducir al español -->
+    <head>          <!-- Aca va todo lo importante para el navegador, no es visual para el usuario final -->
+
+        <meta charset = "UTF-8"/>   <!-- Para que aparezcan las tildes o caracteres del español -->
+        <meta name = "description" content = "Esta pagina te mostrará fotos de gatos" />    <!-- Esto es lo que aparece cuando encontrás la página-->    
+        <meta name = "robots" content = "index, follow">     <!--Para que la pagina aparezca en los buscadores utilizamos los robots para que ellos nos ayuden a que aparezca, con index,follow le autorizamos el permiso -->
+        <title>
+            Listado de compras
+        </title>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">  <!--viewport = Tamaño de la pantalla, initial-scale es para que en los smartphone aparezca bien -->
+        <link rel = "stylesheet" href = "./css/style.css">    <!--NO PUEDE FALTAR, CON ESTO OBTENGO LA HOJA CON LOS ESTILOS, ademas de que indica la dirección del archivo styles.css -->
+
+    </head>
+
+    <body>          <!-- Aca va todo lo que el usuario puede ver -->
+                    <!-- hay etiquetas de contenido y etiquetas contenedoras-->
+        <header>
+            <h1>
+                Lista de compras
+            </h1>
+        </header>
+        
+            <ul>                <!-- Lista desordenada-->
+                <li>            <!-- Texto de la lista-->
+                    Frutas:
+                </li>
+                <ol>            <!-- Lista ordenada-->
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=5d_Y08F1m5s">Bananas</a>        
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=EBval5A4Dkk">Frutillas</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=SPwGhx7kA_M">Naranjas</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=s2T55OFsyS8">Pomelo</a>
+                    </li>
+                </ol>
+
+                <li>
+                    Carnes:
+                </li>
+                <ol>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=75ofxv0Rvts">Tapa de nalga</a>
+                    </li>
+                    <li>
+                        <a href="https://recetasdecocina.elmundo.es/2013/11/osobuco-receta-casera-original-facil.html">Osobuco</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=xioQDumS-SM">Asado</a>
+                    </li>
+                </ol>
+                <li>
+                    Verduras:
+                </li>
+                <ol>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=JOuaBr1xStg">Papas</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=rdry3qjKfyw">Acelga</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=jaTGcyNiPtU">Lechuga</a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/watch?v=lXnGpoMJxVQ">Zanahoria</a>
+                    </li>
+                </ol>
+                </ul>
+
+        </main>
+
+        <footer>
+            <p>
+                Calcular según las recetas
+            </p>
+
+        </footer>
+        
+    </body>
+
+</html>
